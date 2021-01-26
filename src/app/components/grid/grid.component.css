@@ -1,0 +1,55 @@
+/* Todos los div dentro de row agreguele los siguientes estilos */
+/* .row > div {
+    background: #f2f2f2;
+    margin: 10px 0;
+} */
+
+/* Todos los div dentro de row agreguele los siguientes estilos */
+/* .row > div {
+    text-align: center;
+    background: #f2f2f2;
+    margin: 10px 0;
+} */
+
+/* .uno {background: #f2f2f2}
+.dos {background: #dbdbdb; padding: 0 20px;}
+.tres {background: #f2f2f2;} */
+
+/* .row {
+    background: #e8e8e8;
+    height: 150px;
+    margin-top: 20px;
+} */
+
+/* .col {
+    background: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #4d5061;
+} */
+
+/* .row {
+    background: #e8e8e8;
+    margin: 40px 0;
+} */
+
+/* .columna {
+    background: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #4d5061;
+} */
+
+.row {
+    background: #e8e8e8;
+}
+.columna {
+    background: #f2f2f2;
+    text-align: center;
+    border: 1px solid #4d5061;
+}
+.columna-interior {
+    background: #e8e8e8;
+    border: 1px solid #4d5061;
+    padding: 10px;
+}
