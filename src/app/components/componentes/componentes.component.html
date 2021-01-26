@@ -419,10 +419,167 @@
     <!-- </div> -->
 <!-- </div> -->
 
-<div class="container-fluid">
+<!-- <div class="container-fluid">
     <div class="row my-3">
         <div class="col">
-            
+            <div class="card-columns">
+                <div class="card">
+                    <img src="assets/images/bg.jpg" class="card-img-top img-fluid" alt="">
+                    <div class="card-body">
+                        <h3 class="card-title">Título #1</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                        <a href="" class="btn btn-primary btn-block btn-lg">Boton</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/images/bg2.jpg" class="card-img-top img-fluid" alt="">
+                    <div class="card-body">
+                        <h3 class="card-title">Título #2</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                        <a href="" class="btn btn-primary btn-block btn-lg">Boton</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/images/bg3.jpg" class="card-img-top img-fluid" alt="">
+                    <div class="card-body">
+                        <h3 class="card-title">Título #3</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                        <a href="" class="btn btn-primary btn-block btn-lg">Boton</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/images/bg4.jpg" class="card-img-top img-fluid" alt="">
+                    <div class="card-body">
+                        <h3 class="card-title">Título #4</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                        <a href="" class="btn btn-primary btn-block btn-lg">Boton</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/images/bg5.jpg" class="card-img-top img-fluid" alt="">
+                    <div class="card-body">
+                        <h3 class="card-title">Título #5</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                        <a href="" class="btn btn-primary btn-block btn-lg">Boton</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/images/bg6.jpg" class="card-img-top img-fluid" alt="">
+                    <div class="card-body">
+                        <h3 class="card-title">Título #6</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                        <a href="" class="btn btn-primary btn-block btn-lg">Boton</a>
+                    </div>
+                </div>
+                <div class="card bg-success text-white">
+                    <div class="card-body">
+                        <h3 class="card-title">Título #7</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                        <a href="" class="btn btn-primary btn-block btn-lg">Boton</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<!-- Carousel -->
+<div class="container">
+    <div class="row">
+        <div class="col-12 mt-3">
+            <!-- Contenedor del carousel que necesita la clase carousel y slide -->
+            <div id="main-carousel" class="carousel slide" data-ride="carousel">
+                <!-- Permite crear los botones inferiores del carousel -->
+                <ol class="carousel-indicators">
+                    <!-- Los botones deben apuntar al id del contenedor del carousel -->
+                    <!-- Indica que este es el elemento activo en el carousel -->
+                    <!-- data-slid-to indica a cual carousel-item esta apuntando -->
+                    <li class="active" data-target="#main-carousel" data-slid-to="0"></li>
+                    <li data-target="#main-carousel" data-slid-to="1"></li>
+                    <li data-target="#main-carousel" data-slid-to="2"></li>
+                </ol>
+                <!-- Contenedor de la imágenes en el carousel -->
+                <div class="carousel-inner">
+                    <!-- Item en el carousel con su imagen correspondiente -->
+                    <div class="carousel-item active">
+                        <img src="assets/images/carousel1.jpg" alt="">
+                    </div>
+                    <!-- Item en el carousel con su imagen correspondiente -->
+                    <div class="carousel-item">
+                        <img src="assets/images/carousel2.jpg" alt="">
+                    </div>
+                    <!-- Item en el carousel con su imagen correspondiente -->
+                    <div class="carousel-item">
+                        <img src="assets/images/carousel3.jpg" alt="">
+                    </div>
+                </div>
+                <!-- Permite crear el control para devolver la imagen en el carousel -->
+                <a href="#main-carousel" class="carousel-control-prev" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <!-- Permite crear el control para adelantar la imagen en el carousel -->
+                <a href="#main-carousel" class="carousel-control-next" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-12 mt-3">
+            <!-- Contenedor del carousel que necesita la clase carousel y slide -->
+            <div id="secondary-carousel" class="carousel slide" data-ride="carousel">
+                <!-- Permite crear los botones inferiores del carousel -->
+                <ol class="carousel-indicators">
+                    <!-- Los botones deben apuntar al id del contenedor del carousel -->
+                    <!-- Indica que este es el elemento activo en el carousel -->
+                    <!-- data-slid-to indica a cual carousel-item esta apuntando -->
+                    <li class="active" data-target="#secondary-carousel" data-slid-to="0"></li>
+                    <li data-target="#secondary-carousel" data-slid-to="1"></li>
+                    <li data-target="#secondary-carousel" data-slid-to="2"></li>
+                </ol>
+                <!-- Contenedor de la imágenes en el carousel -->
+                <div class="carousel-inner">
+                    <!-- Item en el carousel con su imagen correspondiente -->
+                    <div class="carousel-item active">
+                        <!-- Permite agregarle una descripción al item activo en el carousel -->
+                        <div class="carousel-caption d-block">
+                            <h4>Título de la imagen</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <img src="assets/images/carousel1.jpg" alt="">
+                    </div>
+                    <!-- Item en el carousel con su imagen correspondiente -->
+                    <div class="carousel-item">
+                        <!-- Permite agregarle una descripción al item activo en el carousel -->
+                        <div class="carousel-caption d-block">
+                            <h4>Título de la imagen</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <img src="assets/images/carousel2.jpg" alt="">
+                    </div>
+                    <!-- Item en el carousel con su imagen correspondiente -->
+                    <div class="carousel-item">
+                        <!-- Permite agregarle una descripción al item activo en el carousel -->
+                        <div class="carousel-caption d-block">
+                            <h4>Título de la imagen</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <img src="assets/images/carousel3.jpg" alt="">
+                    </div>
+                </div>
+                <!-- Permite crear el control para devolver la imagen en el carousel -->
+                <a href="#secondary-carousel" class="carousel-control-prev" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <!-- Permite crear el control para adelantar la imagen en el carousel -->
+                <a href="#secondary-carousel" class="carousel-control-next" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+            </div>
         </div>
     </div>
 </div>
