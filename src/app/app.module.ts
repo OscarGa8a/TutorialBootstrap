@@ -12,6 +12,7 @@ import { GridPracticaComponent } from './components/grid-practica/grid-practica.
 import { ElementsComponent } from './components/elements/elements.component';
 import { ElementsPracticaComponent } from './components/elements-practica/elements-practica.component';
 import { ComponentesComponent } from './components/componentes/componentes.component';
+import { FormsComponent } from './components/forms/forms.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ComponentesComponent } from './components/componentes/componentes.compo
     GridPracticaComponent,
     ElementsComponent,
     ElementsPracticaComponent,
-    ComponentesComponent
+    ComponentesComponent,
+    FormsComponent
   ],
   imports: [
     BrowserModule,
