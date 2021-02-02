@@ -1,47 +1,442 @@
-<div class="container-fluid">
-  <div class="row mt-3">
-    <div class="col">
-      <form action="">
-        <div class="  ">
-          <label for="name">Nombre</label>
-          <input class="form-control" type="text" name="name" id="name" placeholder="Nombre">
-        </div>
-        <div class="form-group">
-          <label for="password">Contraseña</label>
-          <input class="form-control" type="password" name="password" id="password" placeholder="Contraseña">
-        </div>
-        <div class="form-group">
-          <label for="message">Mensaje</label>
-          <textarea name="message" id="message" class="form-control"></textarea>
-        </div>
-
-        <div class="form-group">
-          <select name="country" id="country" class="form-control">
+<!-- <div class="container-fluid"> -->
+  <!-- <div class="row mt-3"> -->
+    <!-- <div class="col"> -->
+      <!-- <form action=""> -->
+        <!-- La clase form-group agrega un margen inferior para separar el siguiente grupo -->
+        <!-- <div class="form-group"> -->
+          <!-- <label for="name">Nombre</label> -->
+          <!-- La clase form-control permite que el input se agregue debajo del label,
+          además de agregarle estilos al input y hacer que ocupe todo el ancho disponible -->
+          <!-- <input class="form-control" type="text" name="name" id="name" placeholder="Nombre"> -->
+        <!-- </div> -->
+        <!-- La clase form-group agrega un margen inferior para separar el siguiente grupo -->
+        <!-- <div class="form-group"> -->
+          <!-- <label for="password">Contraseña</label> -->
+          <!-- La clase form-control permite que el input se agregue debajo del label,
+          además de agregarle estilos al input y hacer que ocupe todo el ancho disponible -->
+          <!-- <input class="form-control" type="password" name="password" id="password" placeholder="Contraseña"> -->
+        <!-- </div> -->
+        <!-- La clase form-group agrega un margen inferior para separar el siguiente grupo -->
+        <!-- <div class="form-group"> -->
+          <!-- <label for="message">Mensaje</label> -->
+          <!-- La clase form-control permite que el input se agregue debajo del label,
+          además de agregarle estilos al input y hacer que ocupe todo el ancho disponible -->
+          <!-- <textarea name="message" id="message" class="form-control"></textarea> -->
+        <!-- </div> -->
+        <!-- La clase form-group agrega un margen inferior para separar el siguiente grupo -->
+        <!-- <div class="form-group"> -->
+          <!-- La clase form-control permite que el select se agregue debajo del label,
+          además de agregarle estilos al select y las options y hacer que ocupe todo el ancho disponible -->
+          <!-- <select name="country" id="country" class="form-control">
             <option value="mexico">México</option>
             <option value="españa">España</option>
             <option value="colombia">Colombia</option>
-          </select>
-        </div>
-
-        <div class="form-check">
-          <label class="form-check-label">
+          </select> -->
+        <!-- </div> -->
+        <!-- La clase form-check agrega un margen a la izquierda del checkbox -->
+        <!-- <div class="form-check"> -->
+          <!-- La clase form-check-label disminuye el margen inferior -->
+          <!-- <label class="form-check-label">
             <input type="radio" name="sexo" id="hombre" class="form-check-input mr-2">Hombre
-          </label>
-        </div>
-        <div class="form-check">
-          <label class="form-check-label">
+          </label> -->
+        <!-- </div> -->
+        <!-- La clase form-check agrega un margen a la izquierda del checkbox -->
+        <!-- <div class="form-check"> -->
+          <!-- La clase form-check-label disminuye el margen inferior -->
+          <!-- <label class="form-check-label">
             <input type="radio" name="sexo" id="mujer" class="form-check-input mr-2">Mujer
-          </label>
-        </div>
+          </label> -->
+        <!-- </div> -->
+        <!-- La clase form-check agrega un margen a la izquierda del checkbox -->
+        <!-- <div class="form-check"> -->
+          <!-- La clase form-check-label disminuye el margen inferior -->
+          <!-- <label class="form-check-label">
+            <input type="checkbox" name="terminos" id="terminos" class="form-check-input mr-2">Acepto términos y condiciones
+          </label> -->
+        <!-- </div> -->
+        <!-- <button class="btn btn-info" type="submit">Enviar</button> -->
+      <!-- </form> -->
+    <!-- </div> -->
+  <!-- </div> -->
+<!-- </div> -->
 
+<!-- form inline -->
+<!-- <div class="container-fluid"> -->
+  <!-- <div class="row mt-3"> -->
+    <!-- <div class="col"> -->
+      <!-- La clase form-inline permite crear un formulario en línea -->
+      <!-- <form action="" class="form-inline"> -->
+        <!-- La clase form-control permite agregarle estilos al input y hacer que sea más ancho -->
+        <!-- <input type="text" class="form-control mr-3" id="name" placeholder="Nombre"> -->
+        <!-- La clase form-control permite agregarle estilos al input y hacer que sea más ancho -->
+        <!-- <input type="password" class="form-control mr-3" id="password" placeholder="Contraseña"> -->
+        <!-- La clase form-check agrega un margen a la izquierda del checkbox -->
+        <!-- <div class="form-check mr-3">
+          <input type="checkbox" id="recordar" class="form-check-input">
+          <label for="recordar" class="form-check-label">Recordar sesión</label>
+        </div> -->
+        <!-- <input type="submit" value="Iniciar sesión" class="btn btn-success"> -->
+      <!-- </form> -->
+    <!-- </div> -->
+  <!-- </div> -->
+<!-- </div> -->
+
+<!-- input-group -->
+<!-- <div class="container-fluid"> -->
+  <!-- <div class="row mt-3">/\ -->
+    <!-- <div class="col"> -->
+      <!-- La clase input-group permite agrupar un texto con un input y que parezcan un
+      solo elemento -->
+      <!-- <div class="input-group mb-3"> -->
+        <!-- La clase input-group-prepend permite quitar bordes al span y juntar más el elemento
+        al input, es usada si el texto va antes del input -->
+        <!-- <div class="input-group-prepend">
+          <span class="input-group-text">Nombre</span>
+        </div>
+        <input type="text" name="" id="" class="form-control"> -->
+      <!-- </div> -->
+      <!-- <div class="input-group mb-3"> -->
+        <!-- <input type="text" name="" id="" class="form-control"> -->
+        <!-- La clase input-group-append permite quitar bordes al span y juntar más el elemento
+        al input, es usada si el texto va después del input -->
+        <!-- <div class="input-group-append">
+          <span class="input-group-text">@Correo</span>
+        </div> -->
+      <!-- </div> -->
+      <!-- <hr> -->
+      <!-- La clase input-group-sm permite hacer más pequeño el input-group -->
+      <!-- <div class="input-group input-group-sm mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text">Nombre</span>
+        </div>
+        <input type="text" name="" id="" class="form-control">
+      </div> -->
+      <!-- La clase input-group-lg permite hacer más grande el input-group -->
+      <!-- <div class="input-group input-group-lg mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text">Nombre</span>
+        </div>
+        <input type="text" name="" id="" class="form-control">
+      </div> -->
+      <!-- <hr> -->
+      <!-- <div class="input-group mb-3">
+        <input type="text" name="" id="search" class="form-control" placeholder="Buscar">
+        <div class="input-group-append">
+          <button class="btn btn-primary">Buscar</button>
+        </div>
+      </div> -->
+    <!-- </div> -->
+  <!-- </div> -->
+<!-- </div> -->
+
+<!-- Grid forms -->
+<!-- <div class="container-fluid"> -->
+  <!-- <div class="row"> -->
+    <!-- <div class="col"> -->
+      <!-- <form action=""> -->
+        <!-- La clase form-group agrega un margen inferior para separar el siguiente grupo -->
+        <!-- <div class="form-group row"> -->
+          <!-- <div class="col-12 col-md-6"> -->
+            <!-- <label for="name">Nombre</label> -->
+            <!-- La clase form-control permite que el input se agregue debajo del label,
+            además de agregarle estilos al input y hacer que ocupe todo el ancho disponible -->
+            <!-- <input class="form-control" type="text" name="name" id="name" placeholder="Nombre"> -->
+          <!-- </div> -->
+          <!-- <div class="col-12 col-md-6"> -->
+            <!-- La clase form-group agrega un margen inferior para separar el siguiente grupo -->     
+              <!-- <label for="password">Contraseña</label> -->
+              <!-- La clase form-control permite que el input se agregue debajo del label,
+              además de agregarle estilos al input y hacer que ocupe todo el ancho disponible -->
+              <!-- <input class="form-control" type="password" name="password" id="password" placeholder="Contraseña"> -->
+          <!-- </div> -->
+        <!-- </div> -->
+        <!-- La clase form-group agrega un margen inferior para separar el siguiente grupo -->
+        <!-- <div class="form-group row"> -->
+          <!-- <div class="col-12 col-md-6 mb-3"> -->
+            <!-- <label for="message">Mensaje</label> -->
+            <!-- La clase form-control permite que el input se agregue debajo del label,
+            además de agregarle estilos al input y hacer que ocupe todo el ancho disponible -->
+            <!-- <textarea name="message" id="message" class="form-control"></textarea> -->
+          <!-- </div> -->
+          <!-- <div class="col-12 col-md-3 mb-3"> -->
+            <!-- <label>Sexo</label> -->
+            <!-- La clase form-check agrega un margen a la izquierda del checkbox -->
+            <!-- <div class="form-check"> -->
+              <!-- La clase form-check-label disminuye el margen inferior -->
+              <!-- <label class="form-check-label">
+                <input type="radio" name="sexo" id="hombre" class="form-check-input mr-2">Hombre
+              </label> -->
+            <!-- </div> -->
+            <!-- La clase form-check agrega un margen a la izquierda del checkbox -->
+            <!-- <div class="form-check"> -->
+              <!-- La clase form-check-label disminuye el margen inferior -->
+              <!-- <label class="form-check-label">
+                <input type="radio" name="sexo" id="mujer" class="form-check-input mr-2">Mujer
+              </label>
+            </div> -->
+          <!-- </div> -->
+          <!-- <div class="col-12 col-md-3 mb-3"> -->
+              <!-- <label for="pais">País</label> -->
+              <!-- La clase form-control permite que el select se agregue debajo del label,
+              además de agregarle estilos al select y las options y hacer que ocupe todo el ancho disponible -->
+              <!-- <select name="country" id="country" class="form-control">
+                <option value="mexico">México</option>
+                <option value="españa">España</option>
+                <option value="colombia">Colombia</option>
+              </select> -->
+          <!-- </div> -->
+        <!-- </div> -->
+
+        <!-- <div class="form-group row"> -->
+          <!-- <div class="col-12 text-center"> -->
+            <!-- <div class="form-check mb-3"> -->
+              <!-- La clase form-check-label disminuye el margen inferior -->
+              <!-- <label class="form-check-label">
+                <input type="checkbox" name="terminos" id="terminos" class="form-check-input mr-2">Acepto términos y condiciones
+              </label> -->
+            <!-- </div> -->
+            <!-- <div class="row justify-content-center">
+              <div class="col-12 col-sm-8 col-md-4">
+                <button class="btn btn-info mt-2 btn-block" type="submit">Enviar</button>
+              </div>
+            </div> -->
+          <!-- </div> -->
+        <!-- </div> -->
+      <!-- </form> -->
+    <!-- </div> -->
+  <!-- </div> -->
+<!-- </div> -->
+
+<!-- Checkbox y radio buttons -->
+<!-- <div class="container-fluid">
+  <div class="row">
+    <div class="col">
+      <form action="">
+        <h4>Checkbox</h4>
         <div class="form-check">
           <label class="form-check-label">
-            <input type="checkbox" name="terminos" id="terminos" class="form-check-input mr-2">Acepto términos y condiciones
+            <input type="checkbox" value="option1" class="form-check-input">Opción 1
           </label>
         </div>
-
-        <button class="btn btn-info" type="submit">Enviar</button>
+        <div class="form-check disabled">
+          <label class="form-check-label">
+            <input type="checkbox" value="option2" class="form-check-input" disabled>Opción 1
+          </label>
+        </div>
+        <hr>
+        <h4>Radio Buttons</h4>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="radio" name="sexo" id="hombre" value="hombre" class="form-check-input">Hombre
+          </label>
+        </div>
+        <div class="form-check disabled">
+          <label class="form-check-label">
+            <input type="radio" name="sexo" id="mujer" value="mujer" disabled class="form-check-input">Mujer
+          </label>
+        </div>
+      </form>
+    </div>
+    <div class="col-12">
+      <form action="">
+        <hr>
+        <h4>Inline Checkbox</h4>
+        <div class="form-check form-check-inline">
+          <label class="form-check-label">
+            <input type="checkbox" value="option1" class="form-check-input">Opción 1
+          </label>
+        </div>
+        <div class="form-check form-check-inline disabled">
+          <label class="form-check-label">
+            <input type="checkbox" value="option2" class="form-check-input" disabled>Opción 1
+          </label>
+        </div>
+        <hr>
+        <h4>Inline Radio Buttons</h4>
+        <div class="form-check form-check-inline">
+          <label class="form-check-label">
+            <input type="radio" name="sexo" id="hombre" value="hombre" class="form-check-input">Hombre
+          </label>
+        </div>
+        <div class="form-check form-check-inline disabled">
+          <label class="form-check-label">
+            <input type="radio" name="sexo" id="mujer" value="mujer" disabled class="form-check-input">Mujer
+          </label>
+        </div>
       </form>
     </div>
   </div>
-</div>
+</div> -->
+
+<!-- custom form -->
+<!-- <div class="container-fluid"> -->
+  <!-- <div class="row"> -->
+    <!-- <div class="col"> -->
+      <!-- <form action="" class="mt-3"> -->
+        <!-- <h2>Checkbox personalizado</h2> -->
+        <!-- <hr> -->
+        <!-- Las clases custom-control y custom-checkbox crean un chexbox con clases
+        de bootstrap personalizadas -->
+        <!-- <div class="custom-control custom-checkbox">
+          <input type="checkbox" id="checkbox1" class="custom-control-input">
+          <label for="checkbox1" class="custom-control-label">Checkbox #1</label>
+        </div> -->
+        <!-- Las clases custom-control y custom-checkbox crean un chexbox con clases
+        de bootstrap personalizadas -->
+        <!-- <div class="custom-control custom-checkbox">
+          <input type="checkbox" id="checkbox2" class="custom-control-input">
+          <label for="checkbox2" class="custom-control-label">Checkbox #2</label>
+        </div> -->
+      <!-- </form> -->
+    <!-- </div> -->
+  <!-- </div> -->
+
+  <!-- <div class="row"> -->
+    <!-- <div class="col"> -->
+      <!-- <form action="" class="mt-3"> -->
+        <!-- <h2>Radio button personalizado</h2> -->
+        <!-- <hr> -->
+        <!-- Las clases custom-control y custom-radio crean un radio button con clases
+        de bootstrap personalizadas -->
+        <!-- <div class="custom-control custom-radio">
+          <input type="radio" name="sexo" id="hombre" class="custom-control-input">
+          <label for="hombre" class="custom-control-label">Hombre</label>
+        </div> -->
+        <!-- Las clases custom-control y custom-radio crean un radio button con clases
+        de bootstrap personalizadas -->
+        <!-- <div class="custom-control custom-radio">
+          <input type="radio" name="sexo" id="mujer" class="custom-control-input">
+          <label for="mujer" class="custom-control-label">Mujer</label>
+        </div> -->
+
+        <!-- <br> -->
+        <!-- La clase custom-control-inline permite que los radio buttons aparezcan
+        uno al lado del otro y no uno encima del otro -->
+        <!-- <div class="custom-control custom-control-inline custom-radio">
+          <input type="radio" name="sexo2" id="hombre1" class="custom-control-input">
+          <label for="hombre1" class="custom-control-label">Hombre</label>
+        </div> -->
+        <!-- La clase custom-control-inline permite que los radio buttons aparezcan
+        uno al lado del otro y no uno encima del otro -->
+        <!-- <div class="custom-control custom-control-inline custom-radio">
+          <input type="radio" name="sexo2" id="mujer1" class="custom-control-input">
+          <label for="mujer1" class="custom-control-label">Mujer</label>
+        </div> -->
+      <!-- </form> -->
+    <!-- </div> -->
+  <!-- </div> -->
+
+  <!-- <div class="row"> -->
+    <!-- <div class="col"> -->
+      <!-- <form action="" class="mt-3"> -->
+        <!-- <h2>Select personalizado</h2> -->
+        <!-- <hr> -->
+        <!-- La clase custom-select permite crean un select con clases personalizadas
+        de bootstrap-->
+        <!-- <select name="" id="" class="custom-select mb-3">
+          <option value="1">Opción 1</option>
+          <option value="2" selected>Opción 2</option>
+          <option value="3">Opción 3</option>
+          <option value="4">Opción 4</option>
+        </select> -->
+        <!-- La clase custom-select-lg crean un select más grande con clases de
+        bootstrap personalizadas -->
+        <!-- <select name="" id="" class="custom-select custom-select-lg mb-3">
+          <option value="1">Opción 1</option>
+          <option value="2" selected>Opción 2</option>
+          <option value="3">Opción 3</option>
+          <option value="4">Opción 4</option>
+        </select> -->
+        <!-- La clase custom-select-sm crean un select más pequeño con clase de 
+        bootstrap personalizadas -->
+        <!-- <select name="" id="" class="custom-select custom-select-sm mb-3">
+          <option value="1">Opción 1</option>
+          <option value="2" selected>Opción 2</option>
+          <option value="3">Opción 3</option>
+          <option value="4">Opción 4</option>
+        </select> -->
+      <!-- </form> -->
+    <!-- </div> -->
+  <!-- </div> -->
+<!-- </div> -->
+
+<!-- Variantes del input -->
+<!-- <div class="container-fluid"> -->
+  <!-- <div class="row mt-3"> -->
+    <!-- <div class="col"> -->
+      <!-- <h2>Tamaños input</h2> -->
+      <!-- <hr> -->
+      <!-- <form action=""> -->
+        <!-- <div class="form-group">
+          <label for="name">Nombre</label>
+          <input type="text" name="name" id="name" placeholder="Nombre" class="form-control">
+        </div> -->
+        <!-- <div class="form-group"> -->
+          <!-- <label for="correo">Correo</label> -->
+          <!-- La clase form-control-lg permite que el input sea más grande -->
+          <!-- <input type="text" name="correo" id="correo" placeholder="Correo" class="form-control form-control-lg"> -->
+        <!-- </div> -->
+        <!-- <div class="form-group"> -->
+          <!-- <label for="password">Contraseña</label> -->
+          <!-- La clase form-control-sm permite que el input sea más pequeño -->
+          <!-- <input type="text" name="password" id="password" placeholder="Contrraseña" class="form-control form-control-sm">
+        </div> -->
+      <!-- </form> -->
+    <!-- </div> -->
+  <!-- </div> -->
+  <!-- <div class="row mt-3"> -->
+    <!-- <div class="col"> -->
+      <!-- <h2>Estados de read only y disabled</h2> -->
+      <!-- <hr> -->
+      <!-- <form action=""> -->
+        <!-- <div class="form-group"> -->
+          <!-- La propiedad readonly permite que el input sea de solo lectura, lo que hace
+          que el input se pueda seleccionar pero no se pueda modificar su contenido -->
+          <!-- <input type="text" name="name" id="name" placeholder="No puede modificar nombre" class="form-control" readonly> -->
+        <!-- </div> -->
+        <!-- <div class="form-group"> -->
+          <!-- La propiedad disabled permite que el input quede desactivado, lo que hace
+          que no se pueda seleccionar ni mucho menos modificar su contenido -->
+          <!-- <input type="text" name="correo" id="correo" placeholder="Correo" disabled class="form-control"> -->
+        <!-- </div> -->
+
+        <!-- <div class="form-group"> -->
+          <!-- La propiedad disabled permite que el select quede desactivado, lo que hace
+          que no se pueda seleccionar ni mucho menos modificar su contenido -->
+          <!-- <select name="" id="" class="form-control" disabled>
+            <option value="1">Optión #1</option>
+          </select> -->
+        <!-- </div> -->
+
+        <!-- <div class="form-group"> -->
+          <!-- <label> -->
+            <!-- La propiedad disabled permite que el radio button quede desactivado, lo que hace
+            que no se pueda seleccionar -->
+            <!-- <input type="radio" name="" id="" disabled>Radio Button -->
+          <!-- </label> -->
+        <!-- </div> -->
+      <!-- </form> -->
+    <!-- </div> -->
+  <!-- </div> -->
+<!-- </div> -->
+
+<!-- Cuadros de ayuda -->
+<!-- <div class="container-fluid"> -->
+  <!-- <div class="row mt-3"> -->
+    <!-- <div class="col"> -->
+      <!-- <form action=""> -->
+        <!-- <div class="form-group"> -->
+          <!-- <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Nombre"> -->
+          <!-- La clase form-text permite agregar margen superior al párrafo y text-muted cambia el color del párrafo -->
+          <!-- <p class="form-text text-muted">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, a.
+          </p> -->
+        <!-- </div> -->
+        <!-- <div class="form-group">
+          <input type="text" name="correo" id="correo" class="form-control" placeholder="Correo">
+          <small class="form-text text-muted">Máximo 50 caracteres</small>
+        </div> -->
+      <!-- </form> -->
+    <!-- </div> -->
+  <!-- </div> -->
+<!-- </div> -->

@@ -13,6 +13,7 @@ import { ElementsComponent } from './components/elements/elements.component';
 import { ElementsPracticaComponent } from './components/elements-practica/elements-practica.component';
 import { ComponentesComponent } from './components/componentes/componentes.component';
 import { FormsComponent } from './components/forms/forms.component';
+import { Componentes2Component } from './components/componentes2/componentes2.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FormsComponent } from './components/forms/forms.component';
     ElementsComponent,
     ElementsPracticaComponent,
     ComponentesComponent,
-    FormsComponent
+    FormsComponent,
+    Componentes2Component
   ],
   imports: [
     BrowserModule,

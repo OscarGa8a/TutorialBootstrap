@@ -1,0 +1,19 @@
+.fm-nav a {
+  color: #fff;
+  padding: 15px;
+}
+.fm-nav a:hover, .fm-nav .active {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.fm-nav .disabled {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.section {
+  margin-bottom: 1000px;
+}
+
+.section .column {
+  padding-top: 100px;
+}
