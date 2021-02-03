@@ -1,0 +1,35 @@
+/* .contenedor {
+  margin-bottom: 20px;
+  background: #0275d8;
+  color: #fff;
+}
+
+.contenedor div {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+} */
+
+/* .contenedor {
+  margin-bottom: 20px;
+  background: #0275d8;
+  color: #fff;
+  height: 100px;
+}
+
+.contenedor div {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  border: 1px solid #000;
+} */
+
+.contenedor {
+  margin-bottom: 20px;
+  background: #0275d8;
+  color: #fff;
+}
+
+.contenedor div {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  border: 1px solid #000;
+}

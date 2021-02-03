@@ -14,6 +14,7 @@ import { ElementsPracticaComponent } from './components/elements-practica/elemen
 import { ComponentesComponent } from './components/componentes/componentes.component';
 import { FormsComponent } from './components/forms/forms.component';
 import { Componentes2Component } from './components/componentes2/componentes2.component';
+import { FlexboxComponent } from './components/flexbox/flexbox.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { Componentes2Component } from './components/componentes2/componentes2.co
     ElementsPracticaComponent,
     ComponentesComponent,
     FormsComponent,
-    Componentes2Component
+    Componentes2Component,
+    FlexboxComponent
   ],
   imports: [
     BrowserModule,
